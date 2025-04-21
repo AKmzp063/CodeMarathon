@@ -1,24 +1,15 @@
-import Link from "next/link"
+import Link from "next/link";
 
-export const NavLink = ({ href, title }) => {
+export const NavLink = ({ href, title, description }) => {
     return (
         <Link href={href} className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm-text-xl rounded md:p-0 hover:text-white'>
-            {title}
+            <div className="flex flex-col justify-center items-center">
+                <p>{title}</p>
+                <p>{description}</p>
+            </div>
         </Link>
-    )
-}
-export const NavLinkDrop = ({ path, title, description }) => {
-    console.log(path, title, description);
-    
-    return (
-        <div>
-            <Link href={path} className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm-text-xl rounded md:p-0 hover:text-white'>
-                {title}
-            </Link>
-            <p>{description}</p>
-        </div>
-    )
-}
+    );
+};
 
 export const NavButton = ({ href, title }) => {
     return (
@@ -27,5 +18,5 @@ export const NavButton = ({ href, title }) => {
                 {title}
             </button>
         </Link>
-    )
-}
+    );
+};
