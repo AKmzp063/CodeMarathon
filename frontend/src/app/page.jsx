@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { FaSearch } from "react-icons/fa";
 import Hackathon from "@/components/Hackathon";
 import FeaturedList from "@/components/HackathonFeatured";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
