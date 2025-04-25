@@ -9,7 +9,9 @@ const Footer = () => {
     {/* Grid */}
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
       <div className="col-span-full lg:col-span-1">
-        <a className="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">Brand</a>
+        <Link href="/" className="text-2xl md:text-4xl text-white font-semibold">
+          Code Marathon
+        </Link>
       </div>
       {/* End Col */}
 
