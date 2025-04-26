@@ -6,13 +6,13 @@ const page = () => {
   return (
     <div className='bg-[#121212] object-cover max-w-full'>
       <Image
-  src="/images/Codebg1.png"
-  alt="a hackathon image"
-  width={1020}  
-  height={400}  
-  objectFit="cover"  
-  className="bg-cover h-[400px] w-full md:h-[500px] lg:h-[600px]" 
-/>
+        src="/images/Codebg1.png"
+        alt="a hackathon image"
+        width={1020}  
+        height={400}  
+        objectFit="cover"  
+        className="bg-cover h-[400px] w-full md:h-[500px] lg:h-[600px]" 
+      />
 
       <div className="container text-white mx-auto px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48 py-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
