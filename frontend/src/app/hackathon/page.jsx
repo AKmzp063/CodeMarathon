@@ -245,19 +245,19 @@ const [value, setValue] = React.useState(0);
 
   return (
     <div className='flex min-h-screen flex-col bg-[#121212]'>
-      <div className='flex mt-24 pt-16 pb-16 items-center text-white justify-center text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500'>
+      <div className='flex mt-24 py-16 items-center text-white justify-center text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500'>
         <h2>Join the world's best online and in-person hackathons</h2>
       </div>
 
       <div>
         <div className="flex p-8 justify-end border border-slate-800">
-        <input
-        id="search" 
-        placeholder="Search by hackathon title or keyword"
-        type="text"
-        className="block w-[70%] text-white p-3 border border-slate-200 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-        />
-        <button className="text-slate-500 hover:text-white m-4 text-4xl"><FaSearch /></button>
+          <input
+          id="search" 
+          placeholder="Search by hackathon title or keyword"
+          type="text"
+          className="block w-[70%] text-white p-3 border border-slate-200 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+          />
+          <button className="text-slate-500 hover:text-white m-4 text-4xl"><FaSearch /></button>
         </div>
 
         <div className='grid grid-cols-12 mt-4'>

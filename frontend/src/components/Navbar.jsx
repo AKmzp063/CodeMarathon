@@ -13,7 +13,7 @@ const navlink = [
           { title: "Hackathon 1.2", path: "/hackathon1_2" }
         ]
       },
-      { title: "Hackathon 2", path: "/hackathon2", description: "Join Hackathon 2" },
+      { title: "Projects", path: "/projects", description: "Join Hackathon 2" },
     ]
   },
   {
@@ -25,7 +25,7 @@ const navlink = [
 ];
 
 const navButton = [
-  { title: "Login/SignUp", path: "/Login_Signup" },
+  { title: "Login/SignUp", path: "/auth" },
 ];
 
 const Navbar = () => {
@@ -97,7 +97,7 @@ const Navbar = () => {
           <ul className="flex items-center space-x-8">
             {navlink.map((link, index) => (
               <li key={index} className="relative group">
-                <button className="block py-2 px-4 text-[#ADB7BE] hover:text-white">
+                <button className="block py-2 px-4 text-[#ADB7BE] hover:text-white cursor-pointer">
                   {link.title}
                 </button>
 

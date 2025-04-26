@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const HeroSection = () => {
   return (
@@ -14,14 +15,14 @@ const HeroSection = () => {
         </p>
         <div>
             <button className='px-1 py-1 w-full sm:w-fit rounded-md mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-500 text-white'>
-                <span className='block bg-[#121212] hover:bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-md px-5 py-2'>
+                <Link href='/organiseHackathon' className='block bg-[#121212] hover:bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-md px-5 py-2'>
                     For Organizers
-                </span>
+                </Link>
             </button>
             <button className='px-1 py-1 w-full sm:w-fit rounded-md bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-500 text-white mt-4'>
-            <span className='block bg-[#121212] hover:bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-md px-5 py-2'>
+                <Link href='/hackathon' className='block bg-[#121212] hover:bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-md px-5 py-2'>
                     For Participants
-                </span>
+                </Link>
             </button>
         </div>
         </div>

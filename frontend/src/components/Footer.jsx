@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
     {/* Grid */}
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
       <div className="col-span-full lg:col-span-1">
-        <a className="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">Brand</a>
+        <a className="flex-none text-xl font-semibold text-white focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">Code Marathon</a>
       </div>
       {/* End Col */}
 
@@ -28,8 +29,8 @@ const Footer = () => {
         <h4 className="font-semibold text-gray-100">Company</h4>
 
         <div className="mt-3 grid space-y-3">
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">About us</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Blog</a></p>
+          <p><Link className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="/about">About us</Link></p>
+          <p><Link className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="/contact">Contact</Link></p>
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">
               Careers
              </a>
@@ -73,7 +74,7 @@ const Footer = () => {
     <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
       <div className="flex flex-wrap justify-between items-center gap-2">
         <p className="text-sm text-gray-400 dark:text-neutral-400">
-          © 2025 Preline Labs.
+          © 2025 Ayush & Akshay.
         </p>
       </div>
       {/* End Col */}
