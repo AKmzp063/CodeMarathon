@@ -73,7 +73,7 @@ const page = () => {
                             <p>Run online hackathons that reach more developers</p>
                         </div>
                         <div className='text-white mt-12 font-light text-2xl'>
-                            <p>Maximize your impact with Devpost. 
+                            <p>Maximize your impact with Code Marathon. 
                                 Our team can help you create, manage,
                                 and market your competitions to ensure success.
                             </p>
