@@ -14,7 +14,7 @@ const card1 = (
           Code Marathon
         </Typography>
         <Typography variant="body2" className='!max-w-[70%]'>
-            Get your tools in the hands of developers around the world with Devpost.
+            Get your tools in the hands of developers around the world with Code Marathon.
         </Typography>
       </CardContent>
       <CardActions>
@@ -30,7 +30,7 @@ const card2 = (
           Code Marathon for Teams
         </Typography>
         <Typography variant="body2" className='!max-w-[70%]'>
-            Drive employee and customer innovation in less time with Devpost for Teams.
+            Drive employee and customer innovation in less time with Code Marathon for Teams.
         </Typography>
       </CardContent>
       <CardActions>

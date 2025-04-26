@@ -12,7 +12,7 @@ const page = () => {
     <div className='flex min-h-screen flex-col bg-[#121212] items-center'>
       <div className='container mt-24 max-w-[50%] py-8 text-white text-center'>
         <h2 className='text-5xl'>Run better public and internal hackathons</h2>
-        <h4 className='text-2xl mt-8 font-light px-14'>Plan and manage your hackathons easily with Devpost's all-in-one software, services, and community.</h4>
+        <h4 className='text-2xl mt-8 font-light px-14'>Plan and manage your hackathons easily with Code Marathon's all-in-one software, services, and community.</h4>
       </div>
 
       <div className='flex w-full justify-evenly mt-24 items-center'>
@@ -21,12 +21,12 @@ const page = () => {
       </div>
 
       <div className='container mt-16 max-w-[60%] py-8 text-white text-center'>
-        <h2 className='text-4xl'>You’re in good hands with Devpost</h2>
-        <h4 className='text-2xl mt-8 font-light'>We’ve been powering hackathons since 2009. Our solutions simplify hackathon management, elevate the participant experience, and drive greater business outcomes.</h4>
+        <h2 className='text-4xl'>You’re in good hands with Code Marathon</h2>
+        <h4 className='text-2xl mt-8 font-light'>We’ve been powering hackathons since 2025. Our solutions simplify hackathon management, elevate the participant experience, and drive greater business outcomes.</h4>
       </div>
 
       <div className='container mt-16 py-8 text-white text-center'>
-        <h4 className='text-md font-light'>Join the leading companies that trust Devpost to power their hackathons</h4>
+        <h4 className='text-md font-light'>Join the leading companies that trust Code Marathon to power their hackathons</h4>
 
         <div className="flex text-white overflow-x-auto justify-between bg-[#191919] rounded-lg mt-8 mx-16">
             <Image 
