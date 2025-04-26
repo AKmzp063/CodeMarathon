@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className='bg-[#121212] object-cover max-w-full'>
       <Image
-  src="/Codebg1.png"
+  src="/images/Codebg1.png"
   alt="a hackathon image"
   width={1020}  
   height={400}  
