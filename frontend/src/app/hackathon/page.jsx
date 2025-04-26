@@ -55,7 +55,7 @@ const hackathons = [
   {
     id: 1,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -67,7 +67,7 @@ const hackathons = [
   {
     id: 2,
     title: "AI Innovation Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "2 weeks left",
     prize: "$50,000",
     participants: "2500",
@@ -79,7 +79,7 @@ const hackathons = [
   {
     id: 3,
     title: "Cyber Security Challenge",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "3 days left",
     prize: "$25,000",
     participants: "1200",
@@ -91,7 +91,7 @@ const hackathons = [
   {
     id: 4,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -103,7 +103,7 @@ const hackathons = [
   {
     id: 5,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -115,7 +115,7 @@ const hackathons = [
   {
     id: 6,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -127,7 +127,7 @@ const hackathons = [
   {
     id: 7,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -139,7 +139,7 @@ const hackathons = [
   {
     id: 8,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -151,7 +151,7 @@ const hackathons = [
   {
     id: 9,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -163,7 +163,7 @@ const hackathons = [
   {
     id: 10,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -175,7 +175,7 @@ const hackathons = [
   {
     id: 11,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -187,7 +187,7 @@ const hackathons = [
   {
     id: 12,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -199,7 +199,7 @@ const hackathons = [
   {
     id: 13,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -211,7 +211,7 @@ const hackathons = [
   {
     id: 14,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
@@ -223,7 +223,7 @@ const hackathons = [
   {
     id: 15,
     title: "Agentforce Virtual Hackathon",
-    image: "/images/img.jpg",
+    image: "/images/hackathonimg.jpeg",
     timeLeft: "about 1 month left",
     prize: "$140,000",
     participants: "3800",
