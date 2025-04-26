@@ -14,7 +14,7 @@ const CustomCard = () => {
             <CardActionArea>
                 <div style={{ position: 'relative', width: '100%', height: '140px' }}>
                     <Image
-                        src="/projects.jpeg"
+                        src="/images/projects.jpeg"
                         alt="green iguana"
                         layout="fill"
                         objectFit="cover"
